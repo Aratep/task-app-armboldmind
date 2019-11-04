@@ -1,0 +1,56 @@
+#carousel {
+    display: none;
+}
+
+.image-slide {
+    transition: background-image .3s ease-in-out;
+    height: 555px;
+    width: 800px;
+}
+
+.slide-arrow {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: 58px;
+    height: 58px;
+    background: #FFFFFFD4 0% 0% no-repeat padding-box;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-arrow.right {
+    right: 16rem;
+}
+
+.slide-arrow.left {
+    left: 16rem;
+}
+
+.no-image {
+    font-family: BlackCircular;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-arrow.right {
+        right: 0;
+    }
+
+    .slide-arrow.left {
+        left: 0;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .slide-arrow.right {
+        right: 9rem;
+    }
+
+    .slide-arrow.left {
+        left: 9rem;
+    }
+}

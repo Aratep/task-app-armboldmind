@@ -1,0 +1,13 @@
+.close {
+    height: 17px;
+    width: 17px;
+    float: right;
+    padding: 5px;
+}
+
+.upload-button {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}

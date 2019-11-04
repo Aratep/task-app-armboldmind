@@ -1,0 +1,12 @@
+.button {
+    height: 50px;
+    background: #000000 0% 0% no-repeat padding-box;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    font-family: BookCircular;
+    letter-spacing: 2.31px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 19px;
+}

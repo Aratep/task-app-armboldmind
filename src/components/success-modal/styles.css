@@ -1,0 +1,50 @@
+#successModal {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height:553px;
+    width:493px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 38px #00000029;
+    z-index: 20;
+}
+
+#successModal img {
+    height: 150px;
+    width: 157px;
+    margin-top: 30px;
+}
+
+#successModal  h1 {
+    text-align: center;
+    font-family: BlackCircular;
+    max-width: 295px;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#successModal  p {
+    text-align: center;
+    letter-spacing: 0;
+    color: #272727;
+    font-family: BookCircular;
+    font-size: 20px;
+    line-height: 31px;
+    max-width: 290px;
+}
+
+#successModal .ok {
+    width: 232px;
+}
+
+@media screen and (max-width: 768px) {
+    #successModal {
+        width: 90%;
+        height: 96%;
+    }
+}

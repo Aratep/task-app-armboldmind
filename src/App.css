@@ -1,0 +1,46 @@
+body {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 100%
+}
+
+#root > div {
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+.topic-content form, .preview form, .category form {
+    max-width: 800px;
+}
+
+.active-link {
+    opacity: 1 !important;
+}
+
+.required-label {
+    color: red;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-family: BookCircular;
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+

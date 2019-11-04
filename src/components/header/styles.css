@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 9;
+    height: 83px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 11px #00000029;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+
+header ul li {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header ul li:nth-child(1), header ul li:nth-child(2) {
+    margin-right: 35px
+}
+
+header ul li span {
+    font-family: BookCircular;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.38px;
+    color: #000000;
+
+}
+
+@media screen and (max-width: 420px) {
+    header {
+        justify-content: center;
+    }
+    header ul {
+        margin-right: 0;
+    }
+}

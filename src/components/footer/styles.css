@@ -1,0 +1,90 @@
+footer {
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 17px #00000029;
+}
+
+footer div {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer div ul {
+    flex: 1;
+}
+
+footer ul img {
+    margin-right: 30px;
+}
+
+footer .input-group {
+    height: 40px;
+}
+
+footer  .input-group input {
+    border-style: none none solid none;
+    border-bottom: 1px solid;
+    font-family: BookCircular;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+footer .company li, footer .support li, footer .contacts li {
+    font-family: BookCircular;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+footer .company li:first-child, footer .support li:first-child, footer .socials li:first-child {
+    font-family: BlackCircular;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+footer .socials li:first-child {
+    margin-bottom: 15px;
+}
+
+footer .socials li:nth-child(3) {
+    font-family: BlackCircular;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+
+footer .logos {
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 420px) {
+    footer div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+}

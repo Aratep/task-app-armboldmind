@@ -1,0 +1,1 @@
+export const API_URL = "https://2gatherapi.abmdemo.me/api";

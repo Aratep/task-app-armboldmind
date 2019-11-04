@@ -1,0 +1,35 @@
+#notification {
+    position: fixed;
+    z-index: 1111;
+    display: none;
+    background-color: red;
+    color: white;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+    border-style: solid double;
+    font-family: BookCircular;
+    letter-spacing: 0;
+    font-size: 17px;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+#notification span {
+    position: absolute;
+    right: 3px;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+   #notification {
+       width: 40%
+   }
+}
